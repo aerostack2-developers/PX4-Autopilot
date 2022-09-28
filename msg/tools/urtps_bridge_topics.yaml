@@ -89,3 +89,13 @@ rtps:
     send:    true
   - msg:     sensor_combined
     send:    true
+  - msg:     vehicle_attitude_setpoint
+    receive: true
+  - msg:     vehicle_rates_setpoint
+    receive: true
+  - msg:     sensor_gps
+    send:    true
+  - msg:     battery_status
+    send:    true
+  - msg:     manual_control_switches
+    receive: true
